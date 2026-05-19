@@ -28,7 +28,7 @@ export const quickLinks = [
   { label: 'للتسجيل', icon: '/images/i1.png', href: '#apply-us' },
   { label: 'تعرف علينا', icon: '/images/i3.png', href: '/about' },
   { label: 'الخريجين', icon: '/images/i2.png', href: '/graduates' },
-  { label: 'التواصل الاجتماعي', icon: '/images/i4.png', href: '#social-media' },
+  { label: 'التواصل الاجتماعي', icon: '/images/i4.png', href: '/contact' },
   { label: 'الموقع', icon: '/images/i5.png', href: '/contact' },
   { label: 'البريد الالكتروني', icon: '/images/i6.png', href: '/contact' },
   { label: 'اتصل بنا', icon: '/images/i7.png', href: '/contact' },
