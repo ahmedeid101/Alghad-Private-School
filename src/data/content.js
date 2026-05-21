@@ -37,9 +37,9 @@ export const quickLinks = [
 export const schoolVision = {
   title: 'رؤية المدرسة',
   text: 'إعداد جيل مبدع متميز محصن بالأخلاق الكريمة قادر على مواكبة تحديات المستقبل في ظل بيئة آمنة ومناخ تربوي مناسب ومشاركة مجتمعية فعالة',
-  image: '/images/img4.jpg',
-  video: '/images/vid1.mp4',
-  video2: '/images/homevid.mp4',
+  image: '/alghad/6.jpg',
+  video: '/alghad/44.mp4',
+  video2: '/alghad/55.mp4',
 }
 
 export const schoolMessage = {
@@ -55,7 +55,7 @@ export const schoolMessage = {
     'تدريب عالي الجودة وكادر مؤهل',
     'تنمية روح الانتماء وحب الوطن',
   ],
-  image: '/images/img3.jpeg',
+  image: '/alghad/2.jpg',
 }
 
 export const schoolAims = {
@@ -69,7 +69,7 @@ export const schoolAims = {
     'زرع حب الخير لدى الأطفال والتعاطف مع أصحاب الحاجات لأثارة النزعة الانسانية لديهم وربطهم بفئات المجتمع المختلفة',
     'الاهتمام بإتقان اللغتين العربية والإنجليزية ليكونوا قادرين على متابعة دراستهم',
   ],
-  image: '/images/img5.jpg',
+  image: '/images/img2.jpeg',
 }
 
 export const licenses = [
@@ -82,10 +82,10 @@ export const licenses = [
 
 export const application = {
   admissionTerms: [
-    'نعلن عن فتح باب التسجيل للعام الدراسي 2024/2023 ( روضة - تمهيدي - وتعليم أساسي من ١-٤ )',
-    'نستقبل بمرحلة الروضة حتى مواليد 2020/6/30',
-    'وبمرحلة التمهيدي حتى مواليد 2019/6/30',
-    'وبالصف الأول حتى مواليد 2018/6/30',
+    'نعلن عن فتح باب التسجيل للعام الدراسي 2026/2027 ( روضة - تمهيدي - وتعليم أساسي من 1-6 )',
+    'نستقبل بمرحلة الروضة حتى مواليد 2023/6/30',
+    'وبمرحلة التمهيدي حتى مواليد 2021/6/30',
+    'وبالصف الأول حتى مواليد 2020/6/30',
   ],
   requirements: [
     'إحضار أصل البطاقة الشخصية لولي الأمر على أن تكون مفعلة من الأحوال المدنية',
@@ -96,7 +96,7 @@ export const application = {
     'توثيق أوراق الطلبة الوافدين',
     'إحضار أصول الأوراق للمطابقة',
   ],
-  images: ['/images/news1.jpg', '/images/img1.jpeg', '/images/news2.jpg', '/images/news3.jpg'],
+  images: ['/alghad/aa.png', '/alghad/bb.png', '/alghad/1.jpg', '/alghad/33.jpg',],
 }
 
 export const curriculums = [

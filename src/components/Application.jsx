@@ -5,7 +5,7 @@ import { application } from '../data/content'
 import { HiChevronRight, HiChevronLeft } from 'react-icons/hi'
 
 export default function Application() {
-  const [activeTab, setActiveTab] = useState('gallery')
+  //const [activeTab, setActiveTab] = useState('gallery')
   const [sliderIndex, setSliderIndex] = useState(0)
 
   const slides = [
@@ -13,11 +13,11 @@ export default function Application() {
       type: 'images',
       content: (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="rounded-2xl overflow-hidden shadow-xl">
-            <img src={application.images[0]} alt="" className="w-full h-80 object-cover" />
+          <div className="rounded-2xl overflow-hidden shadow-xl bg-gray-100">
+            <img src={application.images[0]} alt="" className="w-full h-80 object-contain" />
           </div>
-          <div className="rounded-2xl overflow-hidden shadow-xl">
-            <img src={application.images[1]} alt="" className="w-full h-80 object-cover" />
+          <div className="rounded-2xl overflow-hidden shadow-xl bg-gray-100">
+            <img src={application.images[1]} alt="" className="w-full h-80 object-contain" />
           </div>
         </div>
       ),
@@ -59,11 +59,11 @@ export default function Application() {
       type: 'images2',
       content: (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="rounded-2xl overflow-hidden shadow-xl">
-            <img src={application.images[2]} alt="" className="w-full h-80 object-cover" />
+          <div className="rounded-2xl overflow-hidden shadow-xl bg-gray-100">
+            <img src={application.images[2]} alt="" className="w-full h-80 object-contain" />
           </div>
-          <div className="rounded-2xl overflow-hidden shadow-xl">
-            <img src={application.images[3]} alt="" className="w-full h-80 object-cover" />
+          <div className="rounded-2xl overflow-hidden shadow-xl bg-gray-100">
+            <img src={application.images[3]} alt="" className="w-full h-80 object-contain" />
           </div>
         </div>
       ),
