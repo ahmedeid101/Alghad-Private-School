@@ -54,7 +54,7 @@ export default function ContactForm() {
           >
             <SectionHeading title="معنا" highlight="تواصل" align="right" />
             <div className="rounded-2xl overflow-hidden shadow-xl">
-              <img src="/images/home1.jpg" alt="تواصل معنا" className="w-full h-96 object-cover" />
+              <img src="/images/home.jpg" alt="تواصل معنا" className="w-full h-96 object-cover" />
             </div>
           </motion.div>
 

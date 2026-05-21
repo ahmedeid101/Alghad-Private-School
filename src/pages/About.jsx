@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Helmet } from 'react-helmet-async'
 import { motion } from 'framer-motion'
 import SectionHeading from '../components/ui/SectionHeading'
@@ -22,7 +21,7 @@ export default function About() {
 
       <div className="section-padding bg-gray-50" dir="rtl">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeading title="التعريفية" highlight="الفيديوهات" subtitle="شاهد مدرستنا" />
+          <SectionHeading title="التعريفية" highlight="الفيديوهات" />
 
           <motion.div
             initial={{ opacity: 0, y: 30 }}

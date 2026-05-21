@@ -15,7 +15,7 @@ export default function Testimonials() {
           highlight="آراء"
           className="text-white"
         />
-        <div className="text-white text-center mb-2 text-gold-400 font-medium">ماذا يقولون عنا</div>
+        <div className="text-white text-center mb-2 font-medium">ماذا يقولون عنا</div>
 
         <div className="max-w-3xl mx-auto">
           <AnimatePresence mode="wait">

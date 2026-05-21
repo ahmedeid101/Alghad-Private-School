@@ -16,11 +16,10 @@ export default function SectionHeading({ title, subtitle, highlight, align = 'ce
           {subtitle}
         </span>
       )}
-      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
+      <h2 className={`text-3xl md:text-4xl lg:text-5xl font-bold inline-block border-b-4 border-gold-500 pb-2 ${align === 'center' ? '' : ''}`}>
         {highlight && <span className="text-gold-500">{highlight} </span>}
         {title}
       </h2>
-      <div className={`mt-4 h-1 w-20 bg-gold-500 rounded-full ${align === 'center' ? 'mx-auto' : 'ml-0 mr-auto'}`} />
     </motion.div>
   )
 }

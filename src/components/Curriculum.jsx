@@ -7,7 +7,7 @@ export default function Curriculum() {
   return (
     <section className="section-padding bg-white" dir="rtl">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading title="الدراسية" highlight="المناهج" subtitle="تعرف على مناهجنا" />
+        <SectionHeading title="الدراسية" highlight="المناهج"/>
 
         <motion.div
           initial={{ opacity: 0, y: 30 }}

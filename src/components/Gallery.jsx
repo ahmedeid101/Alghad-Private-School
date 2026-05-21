@@ -9,7 +9,7 @@ export default function Gallery() {
   return (
     <section className="section-padding bg-gray-50" dir="rtl">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading title="مدرستنا" highlight="براعم" subtitle="معرض الصور" />
+        <SectionHeading title="مدرستنا" highlight="براعم" />
 
         <motion.div
           initial={{ opacity: 0, y: 30 }}
